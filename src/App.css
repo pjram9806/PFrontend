@@ -1,0 +1,21 @@
+body
+{
+  margin: 0px;
+}
+
+nav
+{
+  background-image: linear-gradient(90deg,coral 55%,cornflowerblue 35%);
+  background-color: snow;
+  color:aquamarine;
+  padding:10px;
+  border:10px;
+}
+a
+{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight:500;
+  font-family: cursive;
+}
