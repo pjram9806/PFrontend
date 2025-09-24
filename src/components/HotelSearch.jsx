@@ -11,18 +11,26 @@ export default function HotelSearch() {
 
   return (
     <div>
-      <input
-        type="text"
-        placeholder="Search hotel..."
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-      />
-      <input
-        type="date"
-        value={date}
-        onChange={(e) => setDate(e.target.value)}
-      />
-      <button onClick={handleSearch}>Search</button>
+      <div className="container my-3">
+        <div className="row">
+          <div className="col-2">
+            <form action="">
+              <input
+                type="text"
+                placeholder="Search hotel..."
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+              />
+              <input
+                type="date"
+                value={date}
+                onChange={(e) => setDate(e.target.value)}
+              />
+              <button onClick={handleSearch}>Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
