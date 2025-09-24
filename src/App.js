@@ -4,6 +4,8 @@ import CheckoutForm from './components/CheckoutForm';
 import React from 'react';
 import PaymentPage from './components/PaymentPage'
 import Auth from './components/Auth';
+import HotelList from './components/HotelList';
+import HotelSearch from './components/HotelSearch';
 
 
 
@@ -12,9 +14,13 @@ const App = () => {
   return (
 <React.Fragment>
 
- {/*  <PaymentPage/> */}
+ {/*  <PaymentPage/> 
+ <Auth/>*/}
 
- <Auth/>
+<HotelSearch/>
+<HotelList/>
+
+ 
 
 </React.Fragment>
 
