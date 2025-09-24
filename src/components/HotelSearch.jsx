@@ -22,7 +22,7 @@ export default function HotelSearch() {
         value={date}
         onChange={(e) => setDate(e.target.value)}
       />
-      <button onClick={handleSearch}>Search</button>
+      <button onClick={handleSearch} className="btn btn-sm btn-primary">Search</button>
     </div>
   );
 }
